@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2738281D40F6810085DBCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2738271D40F6810085DBCD /* AppDelegate.swift */; };
+		CD27382A1D40F6810085DBCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2738291D40F6810085DBCD /* ViewController.swift */; };
+		CD27382D1D40F6810085DBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD27382B1D40F6810085DBCD /* Main.storyboard */; };
+		CD27382F1D40F6810085DBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD27382E1D40F6810085DBCD /* Assets.xcassets */; };
+		CD2738321D40F6810085DBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2738301D40F6810085DBCD /* LaunchScreen.storyboard */; };
+		CD27383D1D40F6810085DBCD /* MarkovChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27383C1D40F6810085DBCD /* MarkovChainTests.swift */; };
+		CD2738481D40F6810085DBCD /* MarkovChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2738471D40F6810085DBCD /* MarkovChainUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD2738391D40F6810085DBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD27381C1D40F6810085DBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2738231D40F6810085DBCD;
+			remoteInfo = MarkovChain;
+		};
+		CD2738441D40F6810085DBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD27381C1D40F6810085DBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2738231D40F6810085DBCD;
+			remoteInfo = MarkovChain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD2738241D40F6810085DBCD /* MarkovChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkovChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2738271D40F6810085DBCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD2738291D40F6810085DBCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD27382C1D40F6810085DBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD27382E1D40F6810085DBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2738311D40F6810085DBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2738331D40F6810085DBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2738381D40F6810085DBCD /* MarkovChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkovChainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD27383C1D40F6810085DBCD /* MarkovChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainTests.swift; sourceTree = "<group>"; };
+		CD27383E1D40F6810085DBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2738431D40F6810085DBCD /* MarkovChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkovChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2738471D40F6810085DBCD /* MarkovChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainUITests.swift; sourceTree = "<group>"; };
+		CD2738491D40F6810085DBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2738211D40F6810085DBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2738351D40F6810085DBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2738401D40F6810085DBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD27381B1D40F6810085DBCD = {
+			isa = PBXGroup;
+			children = (
+				CD2738261D40F6810085DBCD /* MarkovChain */,
+				CD27383B1D40F6810085DBCD /* MarkovChainTests */,
+				CD2738461D40F6810085DBCD /* MarkovChainUITests */,
+				CD2738251D40F6810085DBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2738251D40F6810085DBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2738241D40F6810085DBCD /* MarkovChain.app */,
+				CD2738381D40F6810085DBCD /* MarkovChainTests.xctest */,
+				CD2738431D40F6810085DBCD /* MarkovChainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2738261D40F6810085DBCD /* MarkovChain */ = {
+			isa = PBXGroup;
+			children = (
+				CD2738271D40F6810085DBCD /* AppDelegate.swift */,
+				CD2738291D40F6810085DBCD /* ViewController.swift */,
+				CD27382B1D40F6810085DBCD /* Main.storyboard */,
+				CD27382E1D40F6810085DBCD /* Assets.xcassets */,
+				CD2738301D40F6810085DBCD /* LaunchScreen.storyboard */,
+				CD2738331D40F6810085DBCD /* Info.plist */,
+			);
+			path = MarkovChain;
+			sourceTree = "<group>";
+		};
+		CD27383B1D40F6810085DBCD /* MarkovChainTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD27383C1D40F6810085DBCD /* MarkovChainTests.swift */,
+				CD27383E1D40F6810085DBCD /* Info.plist */,
+			);
+			path = MarkovChainTests;
+			sourceTree = "<group>";
+		};
+		CD2738461D40F6810085DBCD /* MarkovChainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2738471D40F6810085DBCD /* MarkovChainUITests.swift */,
+				CD2738491D40F6810085DBCD /* Info.plist */,
+			);
+			path = MarkovChainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2738231D40F6810085DBCD /* MarkovChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD27384C1D40F6810085DBCD /* Build configuration list for PBXNativeTarget "MarkovChain" */;
+			buildPhases = (
+				CD2738201D40F6810085DBCD /* Sources */,
+				CD2738211D40F6810085DBCD /* Frameworks */,
+				CD2738221D40F6810085DBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkovChain;
+			productName = MarkovChain;
+			productReference = CD2738241D40F6810085DBCD /* MarkovChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD2738371D40F6810085DBCD /* MarkovChainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD27384F1D40F6810085DBCD /* Build configuration list for PBXNativeTarget "MarkovChainTests" */;
+			buildPhases = (
+				CD2738341D40F6810085DBCD /* Sources */,
+				CD2738351D40F6810085DBCD /* Frameworks */,
+				CD2738361D40F6810085DBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD27383A1D40F6810085DBCD /* PBXTargetDependency */,
+			);
+			name = MarkovChainTests;
+			productName = MarkovChainTests;
+			productReference = CD2738381D40F6810085DBCD /* MarkovChainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD2738421D40F6810085DBCD /* MarkovChainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2738521D40F6810085DBCD /* Build configuration list for PBXNativeTarget "MarkovChainUITests" */;
+			buildPhases = (
+				CD27383F1D40F6810085DBCD /* Sources */,
+				CD2738401D40F6810085DBCD /* Frameworks */,
+				CD2738411D40F6810085DBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2738451D40F6810085DBCD /* PBXTargetDependency */,
+			);
+			name = MarkovChainUITests;
+			productName = MarkovChainUITests;
+			productReference = CD2738431D40F6810085DBCD /* MarkovChainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD27381C1D40F6810085DBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brad G.";
+				TargetAttributes = {
+					CD2738231D40F6810085DBCD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CD2738371D40F6810085DBCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD2738231D40F6810085DBCD;
+					};
+					CD2738421D40F6810085DBCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD2738231D40F6810085DBCD;
+					};
+				};
+			};
+			buildConfigurationList = CD27381F1D40F6810085DBCD /* Build configuration list for PBXProject "MarkovChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD27381B1D40F6810085DBCD;
+			productRefGroup = CD2738251D40F6810085DBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2738231D40F6810085DBCD /* MarkovChain */,
+				CD2738371D40F6810085DBCD /* MarkovChainTests */,
+				CD2738421D40F6810085DBCD /* MarkovChainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2738221D40F6810085DBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2738321D40F6810085DBCD /* LaunchScreen.storyboard in Resources */,
+				CD27382F1D40F6810085DBCD /* Assets.xcassets in Resources */,
+				CD27382D1D40F6810085DBCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2738361D40F6810085DBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2738411D40F6810085DBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2738201D40F6810085DBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD27382A1D40F6810085DBCD /* ViewController.swift in Sources */,
+				CD2738281D40F6810085DBCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2738341D40F6810085DBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD27383D1D40F6810085DBCD /* MarkovChainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD27383F1D40F6810085DBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2738481D40F6810085DBCD /* MarkovChainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD27383A1D40F6810085DBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2738231D40F6810085DBCD /* MarkovChain */;
+			targetProxy = CD2738391D40F6810085DBCD /* PBXContainerItemProxy */;
+		};
+		CD2738451D40F6810085DBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2738231D40F6810085DBCD /* MarkovChain */;
+			targetProxy = CD2738441D40F6810085DBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD27382B1D40F6810085DBCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD27382C1D40F6810085DBCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD2738301D40F6810085DBCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2738311D40F6810085DBCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD27384A1D40F6810085DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD27384B1D40F6810085DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD27384D1D40F6810085DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarkovChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD27384E1D40F6810085DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarkovChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD2738501D40F6810085DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarkovChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkovChain.app/MarkovChain";
+			};
+			name = Debug;
+		};
+		CD2738511D40F6810085DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarkovChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkovChain.app/MarkovChain";
+			};
+			name = Release;
+		};
+		CD2738531D40F6810085DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarkovChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarkovChain;
+			};
+			name = Debug;
+		};
+		CD2738541D40F6810085DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarkovChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarkovChain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD27381F1D40F6810085DBCD /* Build configuration list for PBXProject "MarkovChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD27384A1D40F6810085DBCD /* Debug */,
+				CD27384B1D40F6810085DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD27384C1D40F6810085DBCD /* Build configuration list for PBXNativeTarget "MarkovChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD27384D1D40F6810085DBCD /* Debug */,
+				CD27384E1D40F6810085DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD27384F1D40F6810085DBCD /* Build configuration list for PBXNativeTarget "MarkovChainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2738501D40F6810085DBCD /* Debug */,
+				CD2738511D40F6810085DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD2738521D40F6810085DBCD /* Build configuration list for PBXNativeTarget "MarkovChainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2738531D40F6810085DBCD /* Debug */,
+				CD2738541D40F6810085DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD27381C1D40F6810085DBCD /* Project object */;
+}
