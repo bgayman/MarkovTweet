@@ -14,6 +14,12 @@
 		CD2738321D40F6810085DBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2738301D40F6810085DBCD /* LaunchScreen.storyboard */; };
 		CD27383D1D40F6810085DBCD /* MarkovChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27383C1D40F6810085DBCD /* MarkovChainTests.swift */; };
 		CD2738481D40F6810085DBCD /* MarkovChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2738471D40F6810085DBCD /* MarkovChainUITests.swift */; };
+		CD2738581D41B6430085DBCD /* MarkovChains.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2738571D41B6430085DBCD /* MarkovChains.swift */; };
+		CD2738611D41C94A0085DBCD /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27385D1D41C5C60085DBCD /* Helper.m */; };
+		CD2738631D424E2E0085DBCD /* moby.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD2738621D424E2E0085DBCD /* moby.txt */; };
+		CD2738651D42EFF20085DBCD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2738641D42EFF20085DBCD /* Social.framework */; };
+		CD2738671D42F8D00085DBCD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2738661D42F8D00085DBCD /* SwiftyJSON.swift */; };
+		CD2738691D439B300085DBCD /* MarkovTextGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2738681D439B300085DBCD /* MarkovTextGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,14 @@
 		CD2738431D40F6810085DBCD /* MarkovChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkovChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2738471D40F6810085DBCD /* MarkovChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainUITests.swift; sourceTree = "<group>"; };
 		CD2738491D40F6810085DBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2738571D41B6430085DBCD /* MarkovChains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkovChains.swift; sourceTree = "<group>"; };
+		CD27385B1D41C5640085DBCD /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		CD27385C1D41C5990085DBCD /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		CD27385D1D41C5C60085DBCD /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		CD2738621D424E2E0085DBCD /* moby.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = moby.txt; path = ../../../Desktop/moby.txt; sourceTree = "<group>"; };
+		CD2738641D42EFF20085DBCD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CD2738661D42F8D00085DBCD /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CD2738681D439B300085DBCD /* MarkovTextGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkovTextGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2738651D42EFF20085DBCD /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 		CD27381B1D40F6810085DBCD = {
 			isa = PBXGroup;
 			children = (
+				CD2738641D42EFF20085DBCD /* Social.framework */,
 				CD2738261D40F6810085DBCD /* MarkovChain */,
 				CD27383B1D40F6810085DBCD /* MarkovChainTests */,
 				CD2738461D40F6810085DBCD /* MarkovChainUITests */,
@@ -103,6 +119,13 @@
 				CD27382E1D40F6810085DBCD /* Assets.xcassets */,
 				CD2738301D40F6810085DBCD /* LaunchScreen.storyboard */,
 				CD2738331D40F6810085DBCD /* Info.plist */,
+				CD2738571D41B6430085DBCD /* MarkovChains.swift */,
+				CD2738681D439B300085DBCD /* MarkovTextGenerator.swift */,
+				CD2738661D42F8D00085DBCD /* SwiftyJSON.swift */,
+				CD27385B1D41C5640085DBCD /* Bridging.h */,
+				CD27385C1D41C5990085DBCD /* Helper.h */,
+				CD27385D1D41C5C60085DBCD /* Helper.m */,
+				CD2738621D424E2E0085DBCD /* moby.txt */,
 			);
 			path = MarkovChain;
 			sourceTree = "<group>";
@@ -230,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2738321D40F6810085DBCD /* LaunchScreen.storyboard in Resources */,
+				CD2738631D424E2E0085DBCD /* moby.txt in Resources */,
 				CD27382F1D40F6810085DBCD /* Assets.xcassets in Resources */,
 				CD27382D1D40F6810085DBCD /* Main.storyboard in Resources */,
 			);
@@ -258,6 +282,10 @@
 			files = (
 				CD27382A1D40F6810085DBCD /* ViewController.swift in Sources */,
 				CD2738281D40F6810085DBCD /* AppDelegate.swift in Sources */,
+				CD2738671D42F8D00085DBCD /* SwiftyJSON.swift in Sources */,
+				CD2738691D439B300085DBCD /* MarkovTextGenerator.swift in Sources */,
+				CD2738581D41B6430085DBCD /* MarkovChains.swift in Sources */,
+				CD2738611D41C94A0085DBCD /* Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MarkovChain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/bgay/Developer/MarkovChain/MarkovChain/Bridging.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +443,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MarkovChain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bradgayman.MarkovChain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/bgay/Developer/MarkovChain/MarkovChain/Bridging.h;
 			};
 			name = Release;
 		};
